@@ -1,0 +1,82 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    background-color:#dcedc19d;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffd3b6;
+    margin: 0 auto;
+    font-size: 80px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollBtn {
+    background-color: #ff8b94;
+}
+
+#resetBtn {
+    background-color: #ffaaa5;
+}
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+#congratulationsMessage{
+    font-size: 20px;
+    color: #ff8b94;
+    width: 400px;
+    border-radius: 5px;
+    padding: 2px 0;
+    background-color: #ffd3b6;
+    position: absolute;
+    top: 65%;
+    transform: translateY(60%);
+    display: none;
+}

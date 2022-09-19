@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="congratulationsMessage" class="animate__animated animate__heartBeat">Congratulations you win🎉</h1>
+            <h1 id="message">Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h3>Round:
+                        <span id="round1">0</span>
+                    </h3>
+                    <h1>Score: 
+                        <span id="player1Scoreboard">0</span>
+                        
+                    </h1>
+                    
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h3>Round: 
+                        <span id="round2">0</span>
+                    </h3>
+                    <h1>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                   
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn">Reset Game 🔁</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
